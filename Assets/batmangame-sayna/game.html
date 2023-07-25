@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Batman - Game </title>
+    <link rel="stylesheet" href="game.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main-container">
+
+
+        <!-- Cet élément va contenir le quiz -->
+        <div class="quiz-content">
+
+            <div class="nav-bar">
+                <img class="logo" src="./assets/Logo.png" width="121" height="41" alt="" srcset="">
+
+                <span class="espace"></span>
+
+                <ul>
+                    <li> <a href="/index.html"> HOME </a> </li>
+                    <li> <a href="" class="active"> GAME </a> </li>
+                    <li> <a href=""> E-SHOP </a> </li>
+                    <li> <a href=""> MON COMPTE </a> </li>
+                </ul>
+            </div>
+
+            <div class="hero">
+                
+                <p class="hero-title">
+                    LET’s play a <br> little game...
+                </p>
+
+            </div>
+
+
+            <div class="arrow-down">
+
+                <img src="./assets//arrow_down.png" alt="" srcset="">
+
+            </div>
+
+            <!-- Intro du quiz -->
+            <div class="quiz-intro">
+                <h1 class="uppercase text-center"> connaissez vous bien le chevalier noir ?</h1>
+
+                <img class="" src="./assets/Batgame_2.png" alt="" srcset="">
+
+                <button class="bt-deg uppercase" id="bt-launch-game"> démarrer le quiz </button>
+            </div>
+
+            <!-- Les questions // -->
+
+            <div class="quiz-questions-container">
+                <div class="img-left">
+                </div>
+                <div class="quiz-question-content">
+                    <span class="quiz--pagination"> -- </span>
+                    <span class="quiz--question-value"> -- </span>
+                    <div class="quiz--response-list">
+
+                    </div>
+                    <button class="bt-deg uppercase" id="bt-quest-next"> question suivante </button>
+                </div>
+                <div class="img-right">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal de fin -->
+    <div class="modal-end">
+        
+        <div class="content-overlay">
+
+            <span class="modal-title">--</span>
+
+            <p class=modal-message> -- </p>
+
+            <button id="bt-relaunch-quiz" class="bt-deg uppercase"> recommencer le quiz </button>
+        </div>
+    </div>
+    <div class="quotes-footer fd-container reveal fade-left">
+        <div class="quotes-footer-txt fd-container reveal fade-right">
+          <img src="/Assets/Logos/icon_WB.png" alt="" />
+          <p>
+            Ce projet respecte l’univers cinématographique des films Batman
+            récents. Version Nolan & Snyder & Reeves
+          </p>
+        </div>
+        <div class="img-footer fd-container reveal fade-left">
+          <img src="/Assets/Logos/logo_sayna_white.png" alt="" />
+          <img src="/Assets/Logos/icon_x.png" alt="" />
+          <img src="/Assets/Logos/icon_DC.png" alt="" />
+          <img src="/Assets/Logos/icon_facebook.png" alt="" />
+          <img src="/Assets/Logos/icon_ig.png" alt="" />
+          <img src="/Assets/Logos/icon_tw.png" alt="" />
+        </div>
+      </div>
+    <!-- Le script de game.js -->
+    <script src="/Assets/batmangame-sayna/game.js"></script>
+</body>
+</html>
